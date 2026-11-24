@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mts",
-    "dev": "tsx watch server.mts"
+    "start": "node express-server.mts",
+    "dev": "tsx watch express-server.mts"
   },
   "keywords": [],
   "author": "",
