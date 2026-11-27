@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node express-server.mts",
-    "dev": "tsx watch express-server.mts"
+    "start": "node index.ts",
+    "dev": "tsx watch index.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "dotenv": "^18.0.10",
     "express": "^5.3.0"
   }
 }
